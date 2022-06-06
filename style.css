@@ -73,6 +73,10 @@ a{
     border-radius: 10px;
     font-family: var(--fonte-links) ;
 }
+article{
+    min-width: 320px;
+    max-width: 80%;
+}
 article > h1{
     padding-top: 20px;
     padding-left: 35px;
@@ -97,6 +101,7 @@ img{
     margin-left: 17%;
     border-radius: 10px;
     box-shadow: 1px 2px 2px black;
+    width: 100%;
     
     
 }
