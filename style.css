@@ -94,26 +94,37 @@ p{
     
     
 }
+h2{
+    padding-top: 20px;
+    padding-left: 35px;
+    text-align: center; 
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    margin-left: 83px;
+    margin-bottom: 30px;
+}
 img{
     border-radius: 10px; 
 }
 img#chloe{
     
 }
-.video{
-    background-color: var(--cor3);
-    text-decoration: white;
-    padding-bottom: 30px;
-}
-.video > h2{
-    color: white;
-    text-align: center;
+div.video{
+    background-color: #28104E;
     padding: 20px;
+    padding-bottom: 36%;
+    position: relative;
+    width: 70%;
+    margin: auto;
+
 }
 div.video > iframe{
-    margin-left: 400px;
-    /*Trailer de eternos*/
-
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 90%;
+    height: 90%;
 }
 aside > h1{
     padding-top: 20px;
