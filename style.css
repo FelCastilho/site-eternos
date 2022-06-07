@@ -7,8 +7,7 @@
 
 *{
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;   
 }
 :root{
     --cor1:rgba(255, 1, 1, 0.61);
@@ -24,9 +23,8 @@ header{
     background-position: center;
     background-attachment: fixed;
     padding: 150px;
-    
-    
 }
+ 
 .titulosparalax{
     text-align: center;
     color: white;
@@ -37,11 +35,8 @@ header{
 }
 .titulosparalax > h2{
     padding: 5px;
-}
-.titulosparalax > h3{
-    padding: 5px;
-}
 
+}
 nav{
     background-color: black;
     color: white;
@@ -73,6 +68,15 @@ a{
     font-family: var(--fonte-links) ;
     /*Link dentro do texto*/
 }
+body{
+    max-width: 100%;
+    min-width: 360px;
+}
+article{
+    max-width: 100%;
+    min-width: 360px;
+    margin: auto;
+}
 
 article > h1{
     padding-top: 20px;
@@ -94,20 +98,14 @@ p{
     
     
 }
-h2{
-    padding-top: 20px;
-    padding-left: 35px;
-    text-align: center; 
-    font-size: 20px;
-    font-weight: bold;
-    width: 70%;
-    margin-left: 83px;
-    margin-bottom: 30px;
-}
 img{
     border-radius: 10px; 
+    width: 800px;
+    margin-left: 20%;
+
 }
 img#chloe{
+    width: 500px;
     
 }
 div.video{
